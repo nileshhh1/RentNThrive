@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Information</title>
+    <link rel="stylesheet" href="./styles/info.css" />
+  </head>
+  <body>
+    <div id="navbar"></div>
+    <div id="main">
+      <!-- Left Part -->
+      <div id="left">
+        <h3 id="contact">Shipping address</h3>
+        <!-- Shipping address Data -->
+
+        <form id="form" method="post" action="information.php">
+          <select name="country" id="country" class="select">
+            <option value="India">India</option>
+          </select>
+          <div id="name">
+            <input
+              id="firstName"
+              name="firstName"
+              type="text"
+              required
+              placeholder="First Name"
+            />
+            <input
+              id="lastName"
+              name="lastName"
+              required
+              type="text"
+              placeholder="Last Name"
+            />
+          </div>
+          <input
+            id="address"
+            name="address"
+            required
+            type="text"
+            placeholder="Address"
+          />
+          <input
+            id="apartment"
+            name="apartment"
+            type="text"
+            placeholder="Apartment (optional)"
+          />
+
+          <div id="state">
+            <input id="city" name="city" type="text" placeholder="City" />
+            <select name="state" id="state" name="state">
+              <option value="">State</option>
+              <option value="Andhra Pradesh">Andhra Pradesh</option>
+              <option value="Uttarakhand">Uttarakhand</option>
+              <option value="Delhi">Delhi</option>
+              <option value="Mumbai">Mumbai</option>
+              <option value="Chennai">Chennai</option>
+              <!-- Add other state options here -->
+            </select>
+            <input
+              id="pin"
+              name="pin"
+              required
+              type="text"
+              placeholder="PIN code"
+            />
+          </div>
+
+          <input
+            id="phone"
+            name="phone"
+            required
+            type="number"
+            placeholder="Phone"
+          />
+
+          <div id="tick">
+            <input type="checkbox" />
+            <p class="text">Get Order Updates On WhatsApp</p>
+          </div>
+          <!-- Submit button -->
+          <div>
+            <p><a href="cart.html">< Return to cart</a></p>
+            <button id="submit" type="submit">Continue to Payment</button>
+          </div>
+        </form>
+
+        <hr />
+      </div>
+
+      <!-- Right Part -->
+      <div id="right">
+        <p class="text">
+          <span>Pay now and get</span>
+          and get 5% instant discount
+        </p>
+
+        <br />
+        <h4 style="font-weight: 600">You have ' 30 ' points</h4>
+        <p class="text" style="margin-top: 20px">Redeem ' 500 ' points</p>
+        <div class="rec">
+          <input type="range" max="0" />
+          <button class="button">Redeem</button>
+        </div>
+        <p class="text" style="margin-top: -10px; margin-bottom: 20px">
+          You need a minimum of 1000 points to redeem.
+        </p>
+        <hr style="margin-bottom: 20px" />
+        <div class="rec" style="margin-bottom: 20px">
+          <input
+            id="code"
+            type="text"
+            placeholder="Gift card or discount code"
+          />
+          <button id="coupon" class="button">Apply</button>
+        </div>
+        <hr style="margin-bottom: 30px" />
+        <!-- Total -->
+        <div id="totalBar">
+          <div>
+            <p class="text" style="margin-bottom: 10px">Subtotal</p>
+            <p class="text">Shipping</p>
+          </div>
+          <div>
+            <div id="total" class="text total1">₹XXXX</div>
+            <p class="text">Calculated at next step</p>
+          </div>
+        </div>
+        <hr style="margin-bottom: 30px" />
+
+        <div id="totalBar2">
+          <h4 class="text" style="font-size: 20px; color: black">Total</h4>
+          <div>
+            <p class="text">INR</p>
+            <h1 id="total2">₹XXXX</h1>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="footer"></div>
+  </body>
+</html>

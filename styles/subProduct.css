@@ -1,0 +1,217 @@
+#moh_mainPro {
+    display: flex;
+}
+
+#moh_mainPro>div {
+    height: 500px;
+    margin-top: 60px;
+}
+
+#moh_mainPro h2 {
+    margin-left: 70px;
+}
+#moh_prodName {
+    margin-top: 20px;
+}
+
+#moh_mainPro>div:nth-child(1) {
+    width: 70%;
+}
+
+#moh_mainPro>div:nth-child(2) {
+    width: 30%;
+}
+
+#moh_mainPic {
+    width: 100%;
+    height: 500px;
+}
+
+#moh_saftey {
+    border: 1px solid skyblue;
+    display: flex;
+    padding: 20px;
+    margin-left: 70px;
+    margin-top: 50px;
+}
+#moh_headPro{
+    margin-top: 50px;
+    color: red;
+}
+#moh_saftey>img {
+    width: 50px;
+    height: 50px;
+}
+
+#moh_saftey>p {
+    color: grey;
+    margin-left: 20px;
+    font-size: 17px;
+}
+
+h2+hr {
+    width: 4%;
+    margin-left: 70px;
+}
+
+#moh_proDetails {
+    width: 65%;
+    display: flex;
+    margin-top: 250px;
+    margin-left: 70px;
+}
+
+#moh_proDetails>div {
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    padding: 15px;
+}
+
+#moh_proDetails>div:nth-child(1) {
+    width: 45%;
+}
+
+#moh_proDetails>div:nth-child(2) {
+    width: 55%;
+    margin-left: 40px;
+}
+
+#moh_detailPic {
+    width: 100%;
+    height: 400px;
+}
+
+#moh_detailName {
+    font-size: 19px;
+    color: #313131;
+}
+
+p+hr {
+    width: 5%;
+    margin: 0;
+    border: 0.5px solid grey;
+}
+
+hr+p {
+    color: grey;
+}
+
+#moh_descri {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+
+#moh_priceDetail {
+    width: 34.5%;
+    margin-left: 535px;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    margin-top: 20px;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+#moh_priceDetail>div {
+    display: flex;
+    
+    
+}
+
+#moh_priceDetail>div:nth-child(2) {
+    margin-right: 20px;
+}
+
+#moh_month {
+    margin-left: 8px;
+    padding: 10px;
+}
+
+#moh_depo {
+    margin-left: 10px;
+}
+#moh_monthD {
+    margin-left: 10px;
+}
+
+#moh_depoD {
+    margin-left: 10px;
+}
+
+#moh_proPrice {
+    width: 70%;
+    margin: auto;
+    display: flex;
+    justify-items: center;
+
+}
+
+#moh_proPrice>div {
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    margin: auto;
+    width: 50%;
+    height: 60px;
+}
+
+#moh_view {
+    border: 1px solid #dc3226;
+    width: 140px;
+    height: 50px;
+    background: #fff;
+    color: #dc3226;
+    left: 0;
+    margin-left: 70px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+#moh_cart {
+    width: 140px;
+    height: 50px;
+    border: 1px solid #dc3226;
+    background: #dc3226;
+    color: #fff;
+    right: 0;
+    cursor: pointer;
+    margin-left: 20px;
+}
+
+#moh_barImg {
+    width: 75%;
+    margin: 10px auto;
+
+}
+
+#moh_barImg img {
+    width: 100%;
+}
+
+#moh_coupon{
+    border: 1px solid grey;
+    border-style: dashed;
+    width: 97%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    margin-top: 20px;
+}
+#moh_coupon>div{
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
+}
+#moh_coupBtn{
+    right: 30px;
+    width: 61px;
+    height: 30px;
+    align-self: center;
+    border-radius: 2.1px;
+    border: 1px solid #1dbdc0;
+    color: #1dbdc0;
+    background: #fff;
+    box-shadow: none;
+    cursor: pointer;
+}
+#moh_special{
+    margin-top: 30px;
+    margin-left: 10px;
+}
